@@ -1,11 +1,16 @@
 .shop-container{
+    background-color: rgba(148, 196, 196, 0.582);
+   margin: 20px;
     display: grid;
     grid-template-columns: 4fr 1fr;
+   
 }
 
 .product-container{
+    background-color: rgb(241, 167, 140);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
-    padding: 8px;
+    padding: 10px;
+    
 }
